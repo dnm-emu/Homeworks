@@ -1,0 +1,14 @@
+.loader {
+  display: none;
+}
+.loader_active {
+    display: block;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.item__code, .item__value, .item__currency {
+    padding: 5px;
+}
